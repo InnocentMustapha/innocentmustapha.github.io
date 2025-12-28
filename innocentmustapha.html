@@ -151,7 +151,7 @@
 <body>
 
 <div class="top-banner">
-    <span>INNOCENT MUSTAPHA • INNOCENT MUSTAPHA • INNOCENT MUSTAPHA • INNOCENT MUSTAPHA • INNOCENT MUSTAPHA</span>
+    <span>INNOCENT MUSTAPHA • INNOCENT MUSTAPHA • INNOCENT MUSTAPHA • INNOCENT MUSTAPHA</span>
 </div>
 
 <header>
@@ -209,22 +209,31 @@
         <p><strong>Email:</strong> innocentmustapha36@gmail.com</p>
         <p><strong>Phone:</strong> +255 742 370 293</p>
         <p><strong>Whatsapp:</strong> +255 678 159 460</p>
+        <p><strong>Website:</strong> www.innocentmustapha.gt.tc</p>
         <p><strong>Location:</strong> Tanzania</p>
     </div>
 
     <div class="card">
         <h3>Send Us a Message</h3><br>
-        <form action="mailto:info@innocentmustapha.co.tz" method="post" enctype="text/plain">
-            <input type="text" name="Name" placeholder="Your Name" required>
-            <input type="email" name="Email" placeholder="Your Email" required>
-            <textarea name="Message" rows="5" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
+        <form name="contact"
+      method="POST"
+      data-netlify="true">
+
+    <input type="hidden" name="form-name" value="contact">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+
         </form>
     </div>
 </section>
 
 <footer>
-    © 2025 INNOMUFT. All Rights Reserved.
+    © 2025 INNOMUFT | www.innocentmustapha.gt.tc
 </footer>
 
 <a class="whatsapp-btn"
